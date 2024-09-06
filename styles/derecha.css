@@ -1,0 +1,273 @@
+/* RESETEO */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* REGLAS GENERALES */
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 3em;
+}
+@font-face {
+    font-family:'Bebas';
+    src: url(/Fonts/BebasNeue-Regular.otf);
+}
+@font-face {
+    font-family: 'Monserrat';
+    src: url(/Fonts/static/Montserrat-Regular.ttf);
+}
+h1,h2,header{
+    font-family: 'Bebas';
+    letter-spacing: 3px;
+}
+p,a,h3,h4{
+    font-family: 'Monserrat';
+    color: black;
+}
+main {
+    flex: 1;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #1c1c1e;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 47%;
+    padding-left: 8%;
+}
+
+footer a {
+    text-decoration: none;
+    color:#6bd197;
+    font-size: 20px;
+}
+
+
+
+
+
+/* CSS */
+header {
+    background-color: black;
+    color:#6bd197;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.pagestruct {
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+.pagestruct .der {
+    background-color: #6bd197;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagestruct .der img {
+    max-width: 600px;
+    height: auto;
+
+}
+
+.pagestruct .izq {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pagestruct .izq ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pagestruct .izq .preg {
+    font-size: 24px;
+}
+
+.pagestruct .izq p {
+    width: 600px;
+    padding-top: 20px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.fuchi {
+    display: flex;
+}
+
+.fuchi .izq {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 80px 0 80px;
+}
+
+.fuchi .izq h2 {
+    font-size: 28px;
+}
+
+.fuchi .izq p {
+    padding-top: 20px;
+    line-height: 30px;
+    font-size: 20px;
+    width: 600px;
+}
+
+.fuchi .der {
+    background-color: #6bd197;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.fuchi .der img {
+    max-width: 80%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.voly .der {
+    width: 100%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 500px 0 500px;
+}
+.voly .der h2{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 28px;
+}
+.voly .der p{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.voly .izq {
+    width: 100%;
+    display: block;
+    padding-top: 50px;
+    gap: 20px;
+    justify-content: center;
+}
+.voly .izq .ap{
+    text-align: center;
+    padding-bottom:50px;
+}
+.voly .izq img {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.intermedios{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.der {
+    background-color: #6bd197;
+    display: flex;
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.der img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.izq {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 80px 0 90px;
+}
+.izq h2{
+    font-size: 28px;
+    padding: 20px 0 20px 0;
+    
+}
+.izq p{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+.midmidmid{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.midmidmid .der {
+    background-color: #6bd197;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.midmidmid .der img {
+    max-width: 100%;
+    height: 100%;
+
+}
+
+.midmidmid .izq {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.midmidmid .izq ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.midmidmid .izq li{
+    list-style: none;
+    margin: 40px;
+}
+.midmidmid .izq li a{
+    text-decoration: none;
+    background-color: #6bd197;
+    padding: 30px;
+    font-size: 40px;
+    display: inline-block;
+}

@@ -1,0 +1,287 @@
+/* RESETEO */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* REGLAS GENERALES */
+body{
+height: 100%;
+display: flex;
+flex-direction: column;
+background-color: rgb(255, 255, 255);
+min-height: 100vh;
+position: relative;
+padding-bottom: 3em;
+}
+@font-face {
+    font-family:'Bebas';
+    src: url(/Fonts/BebasNeue-Regular.otf);
+}
+@font-face {
+    font-family: 'Monserrat';
+    src: url(/Fonts/static/Montserrat-Regular.ttf);
+}
+h1,h2,header{
+    font-family: 'Bebas';
+    letter-spacing: 3px;
+}
+p,a,h3,h4{
+    font-family: 'Monserrat';
+    color: black;
+}
+main{
+    flex: 1;
+}
+footer{
+    margin-top: auto;
+    background-color: #1c1c1e;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-right: 47%;
+    padding-left: 8%;
+
+}
+footer a{
+    text-decoration: none;
+    color:#6bd197;
+    font-size: 20px;
+}
+
+
+
+
+
+/* CSS */
+header{
+    background-color: black;
+    color:#6bd197;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    font-size: 30px;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.izqinfo img{
+    max-width: 300px;
+    height: auto;
+
+}
+.derinfo {
+    width: 550px;
+}
+.derinfo h3 {
+    line-height: 30px;
+}
+.abajo{
+    /* background-color: rgb(139, 139, 139); */
+    padding-top: 10px;
+    
+}
+.abajo h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.abajo nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    padding: 0 400px 0 400px;
+}
+.abajo nav ul a{
+    background-color: brown;
+    padding: 20px 30px 20px 30px;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+}
+.intermedios{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.izq {
+    background-color: #6bd197;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.izq img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.der {
+    width: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.der ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.der li{
+    list-style: none;
+    margin: 90px;
+}
+.der li a{
+    text-decoration: none;
+    background-color:#6bd197;;
+    padding: 30px;
+    font-size: 40px;
+    display: inline-block;
+}
+
+
+
+/* IMAGENES */
+figure{
+    display: inline-block;
+    padding: 0 10px;
+}
+figcaption{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    margin: 1em 0;
+    letter-spacing: .2em;
+}
+figure img{
+    max-width: 100%;
+    max-height: 300px;
+    padding: 0 10px;
+}
+
+/* EXTRAS */
+.familia{
+    text-align: center;
+    margin-top: 50px;
+}
+.familia p{
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+.panas{
+    text-align: center;
+    margin-top: 50px;
+}
+.panas h2{
+    padding-bottom: 40px;
+}
+.panas figure img{
+    max-width: 100%;
+    max-height: 500px;
+    padding: 0 10px;
+}
+.pendejus{
+    text-align: center;
+    margin-top: 2px;
+    padding: 30px;
+}
+.pendejus a{
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px;
+    display: block;
+    width: 400px;
+    border-radius: 200px;
+    margin: 0 auto;
+    background-color: #6bd197;
+}
+.homopendejus{
+    text-align: center;
+    padding: 30px;
+}
+.homopendejus p{
+    padding: 10px;
+}
+.homopendejus h2{
+    padding: 20px;
+}
+.homopendejus figure img{
+    max-width: 100%;
+    max-height: 400px;
+    padding: 0 10px;
+}
+.mascotas{
+    text-align: center;
+    margin-top: 50px;
+}
+.mascotas p{
+padding: 0 30% 0 30%;
+font-size: 20px;
+}
+.imgmascotas{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.fotos{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.column{
+    flex: 20%;
+    padding: 5px;
+}
+.column img{
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+}
+.iniciofot{
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0 10px 0;
+}
+.iniciofot h2{
+    padding-bottom: 20px;
+}
+@media (max-width: 800px){
+    .column{
+        flex: 50%;
+    }
+}
+@media (max-width: 600px){
+    .column{
+        flex: 100%;
+    }
+}
+.mid {
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+    padding: 20px; 
+}
+
+.mid img {
+    width: 400px; 
+    height: 400px; 
+    object-fit:cover;
+    margin: 10px;
+}
+.musicos .mid{
+    display: block;   
+}
