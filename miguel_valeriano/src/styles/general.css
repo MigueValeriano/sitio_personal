@@ -16,11 +16,11 @@ padding-bottom: 3em;
 }
 @font-face {
     font-family:'Bebas';
-    src: url(/Fonts/BebasNeue-Regular.otf);
+    src: url(../Fonts/BebasNeue-Regular.otf);
 }
 @font-face {
     font-family: 'Monserrat';
-    src: url(/Fonts/static/Montserrat-Regular.ttf);
+    src: url(../Fonts/static/Montserrat-Regular.ttf);
 }
 h1,h2,header{
     font-family: 'Bebas';
