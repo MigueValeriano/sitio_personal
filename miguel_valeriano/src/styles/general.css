@@ -75,6 +75,7 @@ header{
     gap: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
+    max-height: 350px;
 }
 .izqinfo img{
     max-width: 300px;
@@ -233,6 +234,12 @@ figure img{
 padding: 0 30% 0 30%;
 font-size: 20px;
 }
+.mid2{
+    margin-left: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
 .imgmascotas{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -241,6 +248,10 @@ font-size: 20px;
     display: flex;
     padding: 10px;
     flex-wrap: wrap;
+}
+.column ul li{
+    text-decoration: none;
+    list-style: none;
 }
 .column{
     flex: 20%;
@@ -269,6 +280,9 @@ font-size: 20px;
         flex: 100%;
     }
 }
+.derinfo h3{
+    font-weight: lighter;
+}
 .mid {
     display: flex;
     justify-content: center; 
@@ -284,4 +298,29 @@ font-size: 20px;
 }
 .musicos .mid{
     display: block;   
+}
+figcaption{
+   font-family: 'Monserrat'
+}
+
+.bailesfav{
+    padding-left: 30px;
+    text-align: center;
+}
+.bailesfav h2{
+    padding: 40px 0;
+}
+.comidafav{
+    padding-left: 30px;
+    text-align: center;
+}
+.comidafav h2{
+    padding: 40px 0;
+}
+.musifav{
+    padding-left: 30px;
+    text-align: center;
+}
+.musifav h2{
+    padding: 40px 0;
 }
