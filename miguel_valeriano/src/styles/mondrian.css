@@ -1,0 +1,175 @@
+html, body {
+    height: 100%;
+    margin: 0; /* Eliminar el margen por defecto */
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(22, 1fr);
+    grid-template-rows: repeat(14, 1fr);
+    background-color: black;
+    
+}
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 3em;
+}
+@font-face {
+    font-family: 'Monserrat';
+    src: url(../Fonts/static/Montserrat-Regular.ttf);
+}
+footer {
+    margin-top: auto;
+    background-color: #1c1c1e;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 47%;
+    padding-left: 8%;
+}
+
+footer a {
+    text-decoration: none;
+    color:#6bd197;
+    font-size: 20px;
+    font-family: 'Monserrat';
+}
+.audio {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999; 
+}
+.audio h2{
+    width: 300px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: lighter;
+}
+
+audio {
+    width: 300px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(10, 10%);
+    gap: 0;
+    height: 100vh;
+    width: 100vw; 
+}
+
+.cuadro {
+    border: none;
+}
+.cuadro-1 { background-color: #f5f5dc; }
+.cuadro-2 { background-color: #f5f5dc; }
+.cuadro-3 { background-color: #f5f5dc; }
+.cuadro-4 { background-color: #f5f5dc; }
+.cuadro-5 { background-color: #f5f5dc; }
+.cuadro-6 { background-color: #f5f5dc; }
+.cuadro-7 { background-color: #f5f5dc; }
+.cuadro-8 { background-color: #f5f5dc; }
+.cuadro-9 { background-color: #f5f5dc; }
+.cuadro-10 { background-color: #7f8488; }
+.cuadro-11 { background-color: #f5f5dc; }
+.cuadro-12 { background-color: #f5f5dc; }
+.cuadro-13 { background-color: #f5f5dc; }
+.cuadro-14 { background-color: #7f8488; }
+.cuadro-15 { background-color: #f5f5dc; }
+.cuadro-16 { background-color: #f5f5dc; }
+.cuadro-17 { background-color: #f5f5dc; }
+.cuadro-18 { background-color: #7f8488; }
+.cuadro-19 { background-color: #ec0d0d; }
+.cuadro-20 { background-color: #f5f5dc; }
+.cuadro-21 { background-color: #f5f5dc; }
+.cuadro-22 { background-color: #f5f5dc; }
+.cuadro-23 { background-color: #f5f5dc; }
+.cuadro-24 { background-color: #f5f5dc; }
+.cuadro-25 { background-color: #f5f5dc; }
+.cuadro-26 { background-color: #f5f5dc; }
+.cuadro-27 { background-color: #f5f5dc; }
+.cuadro-28 { background-color: #f5f5dc; }
+.cuadro-29 { background-color: #ec0d0d; }
+.cuadro-30 { background-color: #f5f5dc; }
+.cuadro-31 { background-color: #7f8488; }
+.cuadro-32 { background-color: #f5f5dc; }
+.cuadro-33 { background-color: #f5f5dc; }
+.cuadro-34 { background-color: #7f8488; }
+.cuadro-35 { background-color: #f5f5dc; }
+.cuadro-36 { background-color: #f5f5dc; }
+.cuadro-37 { background-color: #f5f5dc; }
+.cuadro-38 { background-color: #ec0d0d; }
+.cuadro-39 { background-color: #ec0d0d; }
+.cuadro-40 { background-color: #ec0d0d; }
+.cuadro-41 { background-color: #f5f5dc; }
+.cuadro-42 { background-color: #f5f5dc; }
+.cuadro-43 { background-color: #f5f5dc; }
+.cuadro-44 { background-color: #f5f5dc; }
+.cuadro-45 { background-color: #f5f5dc; }
+.cuadro-46 { background-color: #f5f5dc; }
+.cuadro-47 { background-color: #ec0d0d; }
+.cuadro-48 { background-color: #ec0d0d; }
+.cuadro-49 { background-color: #f07f20; }
+.cuadro-50 { background-color: #ec0d0d; }
+.cuadro-51 { background-color: #f5f5dc; }
+.cuadro-52 { background-color: #f5f5dc; }
+.cuadro-53 { background-color: #7f8488; }
+.cuadro-54 { background-color: #ec0d0d; }
+.cuadro-55 { background-color: #f5f5dc; }
+.cuadro-56 { background-color: #f5f5dc; }
+.cuadro-57 { background-color: #ec0d0d; }
+.cuadro-58 { background-color: #ec0d0d; }
+.cuadro-59 { background-color: #f4c01c; }
+.cuadro-60 { background-color: #f07f20; }
+.cuadro-61 { background-color: #ec0d0d; }
+.cuadro-62 { background-color: #f5f5dc; }
+.cuadro-63 { background-color: #f5f5dc; }
+.cuadro-64 { background-color: #ec0d0d; }
+.cuadro-65 { background-color: #f5f5dc; }
+.cuadro-66 { background-color: #ec0d0d; }
+.cuadro-67 { background-color: #f5f5dc; }
+.cuadro-68 { background-color: #f07f20; }
+.cuadro-69 { background-color: #f4c01c; }
+.cuadro-70 { background-color: #f07f20; }
+.cuadro-71 { background-color: #ec0d0d; }
+.cuadro-72 { background-color: #f5f5dc; }
+.cuadro-73 { background-color: #ec0d0d; }
+.cuadro-74 { background-color: #f07f20; }
+.cuadro-75 { background-color: #ec0d0d; }
+.cuadro-76 { background-color: #f07f20; }
+.cuadro-77 { background-color: #f4c01c; }
+.cuadro-78 { background-color: #f4c01c; }
+.cuadro-79 { background-color: #f4c01c; }
+.cuadro-80 { background-color: #f4c01c; }
+.cuadro-81 { background-color: #f07f20; }
+.cuadro-82 { background-color: #ec0d0d; }
+.cuadro-83 { background-color: #f07f20; }
+.cuadro-84 { background-color: #f4c01c; }
+.cuadro-85 { background-color: #ec0d0d; }
+.cuadro-86 { background-color: #f07f20; }
+.cuadro-87 { background-color: #f4c01c; }
+.cuadro-88 { background-color: #f4c01c; }
+.cuadro-89 { background-color: #f4c01c; }
+.cuadro-90 { background-color: #f4c01c; }
+.cuadro-91 { background-color: #f4c01c; }
+.cuadro-92 { background-color: #f07f20; }
+.cuadro-93 { background-color: #f07f20; }
+.cuadro-94 { background-color: #f4c01c; }
+.cuadro-95 { background-color: #f07f20; }
+.cuadro-96 { background-color: #f4c01c; }
+.cuadro-97 { background-color: #f4c01c; }
+.cuadro-98 { background-color: #f4c01c; }
+.cuadro-99 { background-color: #f4c01c; }
+.cuadro-100 { background-color: #f4c01c; }
