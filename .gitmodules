@@ -1,3 +1,6 @@
-[submodule "src/practicas/mondrian"]
-	path = src/practicas/mondrian
+[submodule "src/practicas/ejercicios_maquetacion"]
+	path = src/practicas/ejercicios_maquetacion
+	url = git@github.com:MigueValeriano/ejercicios_maquetacion.git
+[submodule "src/practicas/ejercicio_mondrian"]
+	path = src/practicas/ejercicio_mondrian
 	url = git@github.com:MigueValeriano/mondrian.git
