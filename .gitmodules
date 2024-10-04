@@ -1,0 +1,3 @@
+[submodule "src/practicas/mondrian"]
+	path = src/practicas/mondrian
+	url = git@github.com:MigueValeriano/mondrian.git
